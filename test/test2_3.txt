@@ -1,0 +1,12 @@
+main(){
+    int Alice=234, Bob, Charlie=200;
+    show(Alice);
+    Alice=Alice+100+Charlie;
+    Bob=Alice+Alice;
+    if (Alice>=Bob) {
+        show(Bob);
+    }
+    else {
+        show(Charlie);
+    }
+}

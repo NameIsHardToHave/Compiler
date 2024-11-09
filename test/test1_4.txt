@@ -1,0 +1,14 @@
+main()
+{
+    int Bob = 10;
+    while(Bob > 6)
+{   
+    Bob = Bob - 1;
+    if (Bob <= 8) {
+        break;
+    }
+    continue;
+    Bob = Bob + 10;
+}
+    show(Bob);
+}

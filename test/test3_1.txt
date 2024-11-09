@@ -1,0 +1,12 @@
+main() {
+    int Alice=10+20+30,Bob=123;
+    if (Alice < Bob){
+        Alice = Bob;
+        show(Alice);
+    }
+    else{
+        Bob = Alice;
+        show(Bob);
+    }
+    show(Alice+Bob);
+}
